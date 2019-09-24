@@ -1,2 +1,2 @@
 # NCrypt
-An encryper made using Python.
+An encrypter made using Python and TKinter.
