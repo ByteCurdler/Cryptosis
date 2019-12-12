@@ -44,7 +44,7 @@ def hasher(n):
 # GUI SETUP #
 #############
 w = Tk()
-w.title("NCrypt")
+w.title("Cryptosis")
 
 errLabel = Label()
 errLabel.grid(row=5, column = 1)
@@ -52,11 +52,7 @@ def error(txt):
     global errLabel
     errLabel.config(text=txt)
 error("")
-Label(w, text= #Don't worry aoout weird indent, it will be fine.
-"""   |\  | /¯¯¯\ |¯¯¯\ \   / |¯¯¯\ ¯¯T¯¯ 
-| \ | |     |___/  \ /  |___/   |
-|  \| |     |  \    |   |       |
-|   | \___/ |   \   |   |       |""", height=4, font="monospace").grid(
+Label(w, text="Cryptosis", height=2, font="monospace").grid(
     row=0, column=0, columnspan=2
 )
 
