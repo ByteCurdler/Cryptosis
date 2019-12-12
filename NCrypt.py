@@ -136,3 +136,5 @@ def goF():
 Label().grid(row=4, column=0)
 goB = Button(text="Go!", command=goF)
 goB.grid(row=5, column=0, columnspan=2)
+
+w.mainloop()
