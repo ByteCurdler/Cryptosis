@@ -94,6 +94,9 @@ if __name__ == "__main__":
     isHost = input("Is Host? (Y/n) ").upper().startswith("Y")
     port = int(input("Port? "))
     file = None
+    host = socket.gethostname()
     if isHost:
         file = input("File to transfer? ")
-    transfer(isHost, port=port, file=file)
+    else:
+        host = input("Host IP? ")
+    transfer(isHost, port=port, file=file, host=host)
